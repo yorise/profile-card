@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 deleteDir() // Clean workspace
-                checkout([$class: 'GitSCM', branches: [[name: 'main']], userRemoteConfigs: [[url: 'https://github.com/yorise/social-profile-card']]])
+                checkout([$class: 'GitSCM', branches: [[name: 'main']], userRemoteConfigs: [[url: 'https://github.com/yorise/profile-card']]])
             }
         }
 
