@@ -48,11 +48,20 @@ ul li {
   padding: 0.6rem;
   border-radius: 0.5rem;
   background-color: hsl(0, 0%, 20%);
-  color: white;
   font-weight: 700;
 }
 
+ul li a{
+  color: white;
+  text-decoration: none;
+  }
+  
+  ul li a:hover{
+    color: hsl(0, 0%, 20%);
+  }
+  
 ul li:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 20%);
 }
+
